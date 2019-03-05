@@ -12,3 +12,16 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
     monospace;
 }
+
+header{
+  font-family: 'Lobster', cursive;
+  color: #00cc00;
+}
+header h1 {
+  margin: 35px 0px;
+}
+.line{
+	border-color: #009900;
+	border-width: 1px;
+	border-style: groove;
+}
