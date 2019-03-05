@@ -25,13 +25,13 @@ header h1 {
 }
 .line{
 	border-color: #  #FFD700;
-	border-width: 1px;
+	border-width: 2px;
 	border-style: groove;
 }
 
 p{
   font-family: 'Lobster', "Ubuntu", sans-serif;
-  font-size: 35px;
+  font-size: 250%;
   color: #DAA520;
   text-shadow: 1px 1px #FAFAD2;
 }
@@ -45,6 +45,7 @@ footer{
 footer p{
   color: #000000;
   text-shadow: 2px 2px #ff0000;  
+  font-size: 100%;
 }
 .mainBody{
   padding-top: 30px;
@@ -52,4 +53,10 @@ footer p{
 .holidayList{
   padding-top: 30px;
   line-height: 40px;
+}
+
+.calendar{
+  height: 100%;
+  font-size: 150%;
+  text-align: center;
 }
