@@ -27,7 +27,7 @@ class App extends Component {
   updateOnDateChange(e){
     let date = document.getElementById('date').value;
     console.log(`date ${date}`);
-    Request.requestByDate("US",date.substring(0,4), date.substring(5,7), date.substring(8,10)).then(jsonResp => {
+    Request.requestByDate("US", date.substring(5,7), date.substring(8,10)).then(jsonResp => {
           console.log(`jsonResp ${JSON.stringify(jsonResp["holidays"])}`);
           return jsonResp["holidays"];
       });
