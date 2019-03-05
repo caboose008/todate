@@ -40,7 +40,11 @@ export default class AllHolidays extends React.Component{
 			}
 			
 		}
-		return <div className="holidayList">{holidayDiv}</div>;
+		return (<div className="row">	
+					<div className="col-lg-4 col-md-4"></div>
+					<div className="holidayList col-lg-4 col-md-4">{holidayDiv}</div>
+				</div>
+				);
 	}
 }
 

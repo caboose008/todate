@@ -1,3 +1,4 @@
+
 body {
   margin: 0;
   padding: 0;
@@ -30,8 +31,9 @@ header h1 {
 
 p{
   font-family: 'Lobster', "Ubuntu", sans-serif;
-  font-size: 20px;
-  color: #F0E68C;
+  font-size: 35px;
+  color: #DAA520;
+  text-shadow: 1px 1px #FAFAD2;
 }
 .floatRight{
   float: right;
@@ -41,7 +43,8 @@ footer{
   
 }
 footer p{
-  color: #FFA500;
+  color: #000000;
+  text-shadow: 2px 2px #ff0000;  
 }
 .mainBody{
   padding-top: 30px;
