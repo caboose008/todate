@@ -6,6 +6,8 @@ body {
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+  background-image: url("background.jpg");
+  background-size: 100vw 100vh ;
 }
 
 code {
@@ -15,13 +17,36 @@ code {
 
 header{
   font-family: 'Lobster', cursive;
-  color: #00cc00;
+  color: #00cc00;  
 }
 header h1 {
   margin: 35px 0px;
 }
 .line{
-	border-color: #009900;
+	border-color: #  #FFD700;
 	border-width: 1px;
 	border-style: groove;
+}
+
+p{
+  font-family: 'Lobster', "Ubuntu", sans-serif;
+  font-size: 20px;
+  color: #F0E68C;
+}
+.floatRight{
+  float: right;
+}
+footer{
+  position:fixed;bottom:30px;left:0;right:10px;height:50px;
+  
+}
+footer p{
+  color: #FFA500;
+}
+.mainBody{
+  padding-top: 30px;
+}
+.holidayList{
+  padding-top: 30px;
+  line-height: 40px;
 }
