@@ -11,10 +11,10 @@
   "scripts": {
     "start": "react-scripts start",
     "build": "react-scripts build",
-    "test": "react-scripts test",
     "eject": "react-scripts eject",
     "predeploy": "npm run build",
-    "deploy": "gh-pages -d build"
+    "deploy": "gh-pages -d build",
+    "test": "mocha --reporter spec --exit"
   },
   "eslintConfig": {
     "extends": "react-app"
@@ -27,6 +27,22 @@
     "not op_mini all"
   ],
   "devDependencies": {
-    "gh-pages": "^2.0.1"
+    "chai": "^4.2.0",
+    "gh-pages": "^2.0.1",
+    "mocha": "^6.0.2"
+  },
+  "description": "This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).",
+  "main": "index.js",
+  "directories": {
+    "test": "test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://caboose008:ronbarcelo22@github.com/caboose008/todate.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/caboose008/todate/issues"
   }
 }
